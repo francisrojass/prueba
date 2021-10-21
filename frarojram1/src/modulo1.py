@@ -18,7 +18,7 @@ def leer_csv(fichero):
         
         lector = csv.reader(f, delimiter = ";")
         next(lector)
-        l=[]
+        lista=[]
         
         for registros in lector:
         
@@ -40,7 +40,7 @@ def leer_csv(fichero):
             tupla = RegistrosAirbnb(visitas, room_type, neighborhood, satisfaction, accommodates, 
                                     bedrooms, price, LATITUDE, LONGITUDE, NAME, CLEAN, 
                                     STAIRS, NUMBER_OF_FLATS, LAST_RENT)
-            l.append(tupla)
+            lista.append(tupla)
         
     return l
 
