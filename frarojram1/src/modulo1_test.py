@@ -17,7 +17,8 @@ def main():
     
     print("Tres últimos registros ===  ", datos[125:])
     
-    print("hola mundo")
+    filtro_por_visista = filtrar_por_visitas(datos, "moderado")
+    print("Pisos visitados moderadamente == ", filtro_por_visista)
     
 if __name__ == '__main__':
     main()
