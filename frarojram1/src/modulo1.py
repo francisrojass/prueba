@@ -42,7 +42,7 @@ def leer_csv(fichero):
                                     STAIRS, NUMBER_OF_FLATS, LAST_RENT)
             lista.append(tupla)
         
-    return l
+    return lista
 
 
 def filtrar_por_visitas(registro, Visitas):
